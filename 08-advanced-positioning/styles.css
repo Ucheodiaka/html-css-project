@@ -31,3 +31,15 @@ body {
   top: 30px; /* bottom: 30px; this will nudge the box in the opposite direction */
   left: 30px; /* right: 30px; this will nudge the box in the opposite direction */
 }
+
+.item-absolute {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.item-fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
